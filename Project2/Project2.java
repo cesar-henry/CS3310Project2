@@ -49,7 +49,7 @@ public class Project2 {
         int[][] dist = graph;
 
         // highest represents infinity
-        int highest = 10000;
+        int highest = 100000000;
 
         // replace -1 with highest value because -1 represents infinity
         for(int i = 0; i < v; i++)
